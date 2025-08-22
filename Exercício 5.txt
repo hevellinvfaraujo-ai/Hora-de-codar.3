@@ -1,0 +1,22 @@
+programa
+{
+  funcao inicio()
+  {
+    inteiro num1, num2, soma = 0, quantidade = 0, i
+    real media
+    
+    escreva("Digite o primeiro número: ")
+    leia(num1)
+    escreva("Digite o segundo número: ")
+    leia(num2)
+    
+    para (i = num1; i <= num2; i++)
+    {
+      soma = soma + i
+      quantidade++
+    }
+    
+    media = (real)soma / quantidade
+    escreva("A média aritmética dos números entre ", num1, " e ", num2, " é: ", media)
+  }
+}

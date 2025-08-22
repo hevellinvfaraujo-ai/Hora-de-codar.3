@@ -1,0 +1,22 @@
+programa
+{
+  funcao inicio()
+  {
+    real valor1, valor2, resultado
+    
+    escreva("Digite o primeiro valor: ")
+    leia(valor1)
+    
+    escreva("Digite o segundo valor (deve ser maior que zero): ")
+    leia(valor2)
+    
+    enquanto (valor2 <= 0)
+    {
+      escreva("Valor inválido! Digite novamente um valor maior que zero: ")
+      leia(valor2)
+    }
+    
+    resultado = valor1 / valor2
+    escreva("O resultado da divisão é: ", resultado)
+  }
+}

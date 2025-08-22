@@ -1,0 +1,20 @@
+programa
+{
+  funcao inicio()
+  {
+    inteiro N, i, j
+    
+    escreva("Digite um valor para N: ")
+    leia(N)
+    
+    para (i = 1; i <= N; i++)
+    {
+      escreva("--- Tabuada de ", i, " ---\n")
+      para (j = 1; j <= 10; j++)
+      {
+        escreva(i, " x ", j, " = ", i * j, "\n")
+      }
+      escreva("\n")
+    }
+  }
+}

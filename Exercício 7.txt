@@ -1,0 +1,25 @@
+programa
+{
+  funcao inicio()
+  {
+    real nota, somaNotas = 0.0
+    inteiro contador
+    
+    para (contador = 1; contador <= 6; contador++)
+    {
+      faca
+      {
+        escreva("Digite a nota ", contador, " (0 a 10): ")
+        leia(nota)
+        se (nota < 0 ou nota > 10)
+        {
+          escreva("Nota inválida! Digite novamente.\n")
+        }
+      } enquanto (nota < 0 ou nota > 10)
+      
+      somaNotas = somaNotas + nota
+    }
+    
+    escreva("A média do aluno é: ", somaNotas / 6)
+  }
+}

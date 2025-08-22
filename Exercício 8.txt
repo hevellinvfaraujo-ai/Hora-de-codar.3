@@ -1,0 +1,15 @@
+programa
+{
+  funcao inicio()
+  {
+    inteiro N, i
+    
+    escreva("Digite um valor para N (maior que zero): ")
+    leia(N)
+    
+    para (i = 1; i <= N; i++)
+    {
+      escreva(i, "\n")
+    }
+  }
+}

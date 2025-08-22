@@ -1,0 +1,27 @@
+programa
+{
+  funcao inicio()
+  {
+    inteiro valor, i, dentro = 0, fora = 0
+    
+    escreva("Digite 10 valores:\n")
+    
+    para (i = 1; i <= 10; i++)
+    {
+      escreva("Valor ", i, ": ")
+      leia(valor)
+      
+      se (valor >= 24 e valor <= 42)
+      {
+        dentro++
+      }
+      senao
+      {
+        fora++
+      }
+    }
+    
+    escreva("Valores no intervalo [24, 42]: ", dentro, "\n")
+    escreva("Valores fora do intervalo: ", fora)
+  }
+}
